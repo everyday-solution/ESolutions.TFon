@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESolutions.TFon.Tapi", "Tapi\ESolutions.TFon.Tapi.csproj", "{FD02322E-886E-4334-B52E-C8F1D7935498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESolutions.TFon.Tests", "Tests\ESolutions.TFon.Tests.csproj", "{BE288FFF-7C57-4284-A347-41AD5F1AF93C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESolutions.TFon.Windows", "Windows\ESolutions.TFon.Windows.csproj", "{A3279192-DD09-438B-ABA7-FB6CB63B5E0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD02322E-886E-4334-B52E-C8F1D7935498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD02322E-886E-4334-B52E-C8F1D7935498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD02322E-886E-4334-B52E-C8F1D7935498}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD02322E-886E-4334-B52E-C8F1D7935498}.Debug|x86.Build.0 = Debug|Any CPU
+		{FD02322E-886E-4334-B52E-C8F1D7935498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD02322E-886E-4334-B52E-C8F1D7935498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD02322E-886E-4334-B52E-C8F1D7935498}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD02322E-886E-4334-B52E-C8F1D7935498}.Release|x86.Build.0 = Release|Any CPU
+		{BE288FFF-7C57-4284-A347-41AD5F1AF93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE288FFF-7C57-4284-A347-41AD5F1AF93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE288FFF-7C57-4284-A347-41AD5F1AF93C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE288FFF-7C57-4284-A347-41AD5F1AF93C}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE288FFF-7C57-4284-A347-41AD5F1AF93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE288FFF-7C57-4284-A347-41AD5F1AF93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE288FFF-7C57-4284-A347-41AD5F1AF93C}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE288FFF-7C57-4284-A347-41AD5F1AF93C}.Release|x86.Build.0 = Release|Any CPU
+		{A3279192-DD09-438B-ABA7-FB6CB63B5E0B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A3279192-DD09-438B-ABA7-FB6CB63B5E0B}.Debug|x86.ActiveCfg = Debug|x86
+		{A3279192-DD09-438B-ABA7-FB6CB63B5E0B}.Debug|x86.Build.0 = Debug|x86
+		{A3279192-DD09-438B-ABA7-FB6CB63B5E0B}.Release|Any CPU.ActiveCfg = Release|x86
+		{A3279192-DD09-438B-ABA7-FB6CB63B5E0B}.Release|x86.ActiveCfg = Release|x86
+		{A3279192-DD09-438B-ABA7-FB6CB63B5E0B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {894B5655-CDF5-42E8-9047-00529BA3F418}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ESolutions.CM.vsmdi
+	EndGlobalSection
+EndGlobal
